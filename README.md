@@ -14,7 +14,6 @@ composer install bravist/laravel-district-explorer -vvv
 
 ## 使用说明
 
-
 ## 测试说明
 
 ## 贡献方式

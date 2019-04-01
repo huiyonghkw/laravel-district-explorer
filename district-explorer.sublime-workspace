@@ -79,6 +79,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 580,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 253,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -92,12 +110,12 @@
 		"selected_items":
 		[
 			[
-				"act",
-				"Activate Materialize Theme"
-			],
-			[
 				"packin",
 				"Package Control: Install Package"
+			],
+			[
+				"act",
+				"Activate Materialize Theme"
 			],
 			[
 				"project",
@@ -204,10 +222,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer"
+		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer",
+		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer/src"
 	],
 	"file_history":
 	[
+		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer/README.md",
+		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer/CONTRIBUTING.md",
+		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer/LICENSE",
+		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer/CHANGELOG.md",
+		"/Users/chenghuiyong/Repositories/bravist/laravel-district-explorer/.gitignore",
 		"/Users/chenghuiyong/Repositories/spa/app/Http/Controllers/Web/AppController.php",
 		"/Users/chenghuiyong/Repositories/spa/resources/js/routes.js",
 		"/Users/chenghuiyong/Repositories/spa/routes/web.php",
@@ -330,12 +354,7 @@
 		"/Users/chenghuiyong/Repositories/yocard-query/app/Http/Middleware/EnableCrossRequestMiddleware.php",
 		"/Users/chenghuiyong/Repositories/yocard-query/app/Http/Middleware/Authenticate.php",
 		"/Users/chenghuiyong/Repositories/yocard-query/app/Models/ConsoleOverview.php",
-		"/Users/chenghuiyong/Repositories/yocard-query/bootstrap/app.php",
-		"/Users/chenghuiyong/Repositories/yocard-query/app/Http/Middleware/VerifyPermission.php",
-		"/Users/chenghuiyong/Repositories/yocard-query/config/language.php",
-		"/Users/chenghuiyong/Repositories/yocard-query/vendor/illuminate/support/Carbon.php",
-		"/Users/chenghuiyong/Repositories/yocard-query/database/migrations/2019_03_18_083126_create_console_dailies_table.php",
-		"/Users/chenghuiyong/Repositories/yocard-query/database/migrations/2019_03_18_083150_create_console_overviews_table.php"
+		"/Users/chenghuiyong/Repositories/yocard-query/bootstrap/app.php"
 	],
 	"find":
 	{
@@ -370,8 +389,72 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								127
+							]
+						],
+						"settings":
+						{
+							"SL.119.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -790,7 +873,7 @@
 		[
 			[
 				"",
-				"~/Repositories/yoquery/yoquery.sublime-project"
+				"~/Repositories/spa/spa.sublime-project"
 			]
 		],
 		"width": 380.0
