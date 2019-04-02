@@ -35,7 +35,7 @@ $ composer require bravist/laravel-district-explorer -vvv
 
 生成migrations。
 ```php
-$ php artisan vendor:publish --provider="Bravist\DistrictExplorer\DistrictExplorerServiceProvider"
+$ php artisan vendor:publish --provider="Bravist\DistrictExplorer\ServiceProvider"
 ```
 
 执行migrate。
