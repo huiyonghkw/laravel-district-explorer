@@ -1,3 +1,5 @@
 vendor/
+.php_cs.cache
+.DS_Store
 district-explorer.sublime-project
 district-explorer.sublime-workspace
