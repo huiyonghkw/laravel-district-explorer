@@ -12,6 +12,7 @@ CREATE TABLE `districts` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `adcode` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '区划编码',
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '区划名称',
+  `pinyin` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '区划名称拼音',
   `level` enum('country','province','city','district') COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '区划级别',
   `parent_code` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '上级区划编码',
   `center_longitude` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '区划中心经度',
