@@ -55,7 +55,7 @@ $ php artisan db:seed --class=DistrictsSeeder
 ```
 ## 测试说明
 
-单元测试
+单元测试。
 
 ```php
  $ ./vendor/bin/phpunit --filter DistrictsSeederTest
