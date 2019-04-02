@@ -16,6 +16,13 @@
             "email": "chenghuiyong1987@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bravist\\DistrictExplorer\\ServiceProvider"
+            ],
+        }
+    },
     "autoload": {
         "psr-4": {
             "Bravist\\District\\Explorer\\": "src/"
