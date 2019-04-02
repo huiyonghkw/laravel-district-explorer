@@ -9,7 +9,7 @@ District Explorer For Laravel with AutoNavi.
 ## 安装说明
 
 ```php
-$ composer install bravist/laravel-district-explorer -vvv
+$ composer require bravist/laravel-district-explorer -vvv
 ```
 
 ## 使用说明
