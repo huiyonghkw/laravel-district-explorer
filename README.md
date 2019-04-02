@@ -4,7 +4,7 @@
 
 District Explorer For Laravel with AutoNavi. 
 
-中国行政区划数据，访问[高德在线数据](https://webapi.amap.com/ui/1.0/ui/geo/DistrictExplorer/assets/d_v1/country_tree.json)获取最新区划数据。
+中国行政区划数据，访问[高德区划API](https://webapi.amap.com/ui/1.0/ui/geo/DistrictExplorer/assets/d_v1/country_tree.json)获取最新区划数据。支持动态更新最新区划数据。
 
 ## 安装说明
 
@@ -16,7 +16,7 @@ $ composer require bravist/laravel-district-explorer -vvv
 
 生成migrations。
 ```php
-$ php artisan vendor:publish --provider="Bravist\District\DistrictExplorerServiceProvider"
+$ php artisan vendor:publish --provider="Bravist\DistrictExplorer\DistrictExplorerServiceProvider"
 ```
 
 执行migrate。

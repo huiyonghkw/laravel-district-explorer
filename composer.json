@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Bravist\\District\\DistrictExplorerServiceProvider"
+                "Bravist\\DistrictExplorer\\DistrictExplorerServiceProvider"
             ]
         }
     },
