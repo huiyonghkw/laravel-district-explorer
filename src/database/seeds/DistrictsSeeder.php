@@ -11,7 +11,8 @@ class DistrictsSeeder extends Seeder
      * @return void
      */
     public function run()
-    {  
+    {
+        DB::table('districts')->truncate();
         $this->grapDistricts();
     }
 
@@ -23,7 +24,7 @@ class DistrictsSeeder extends Seeder
 
         collect($nodes->children)->each(function ($node) {
             $this->insert($node->adcode, $node->name, $node->level, $node->acroutes[0], $node->center[0], $node->center[1]);
-            if ($node->children) {
+            if (!empty($node->children)) {
                 collect($node->children)->each(function ($children) {
                     $this->insert($children->adcode, $children->name, $children->level, $children->provCode, $children->center[0], $children->center[1]);
                 });
@@ -41,6 +42,8 @@ class DistrictsSeeder extends Seeder
                 'parent_code' => $parent,
                 'center_longitude' => $longitude,
                 'center_latitude' => $latitude,
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ]);
     }
 }

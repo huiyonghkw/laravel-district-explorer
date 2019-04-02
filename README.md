@@ -25,6 +25,11 @@ $ php artisan vendor:publish --provider="Bravist\DistrictExplorer\DistrictExplor
 $ php artisan migrate
 ```
 
+加载Seeder。
+```php
+$ composer dump-autoload
+```
+
 ## 测试说明
 
 单元测试
