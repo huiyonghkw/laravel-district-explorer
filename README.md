@@ -30,6 +30,10 @@ $ php artisan migrate
 $ composer dump-autoload
 ```
 
+生成最新区划数据（数据表在生成时会自动清空之前数据）。
+```php
+$ php artisan db:seed --class=DistrictsSeeder
+```
 ## 测试说明
 
 单元测试
