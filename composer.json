@@ -20,7 +20,7 @@
         "laravel": {
             "providers": [
                 "Bravist\\DistrictExplorer\\ServiceProvider"
-            ],
+            ]
         }
     },
     "autoload": {
