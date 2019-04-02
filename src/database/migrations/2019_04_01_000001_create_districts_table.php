@@ -21,6 +21,7 @@ class CreateDistrictsTable extends Migration
             $table->increments('id');
             $table->string('adcode')->index()->comment('区划编码');
             $table->string('name')->comment('区划名称');
+            $table->string('pinyin')->comment('区划名称拼音');
             $table->enum('level', ['country', 'province', 'city', 'district'])->comment('区划级别');
             $table->string('parent_code')->comment('上级区划编码');
             $table->string('center_longitude')->comment('区划中心经度');
