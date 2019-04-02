@@ -2,9 +2,9 @@
 
 namespace Bravist\DistrictExplorer;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as Provider;
 
-class ServiceProvider extends ServiceProvider
+class ServiceProvider extends Provider
 {
     /**
      * Bootstrap the application services.
