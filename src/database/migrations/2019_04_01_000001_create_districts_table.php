@@ -8,7 +8,7 @@ use Illuminate\Database\Migrations\Migration;
  * https://webapi.amap.com/ui/1.0/ui/geo/DistrictExplorer/assets/d_v1/country_tree.json
  * @author chenghuiyong <chenghuiyong1987@gmail.com>
  */
-class CreateDisttrictsTable extends Migration
+class CreateDistrictsTable extends Migration
 {
     /**
      * Run the migrations.
