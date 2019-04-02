@@ -20,11 +20,11 @@ class DistrictExplorerServiceProvider extends ServiceProvider
 
             $this->publishes([
                 __DIR__.'/database/migrations' => database_path('migrations'),
-            ], 'district-migrations');
+            ]);
 
             $this->publishes([
                 __DIR__.'/database/seeds' => database_path('seeds'),
-            ], 'district-seeds');
+            ]);
         }
     }
 
