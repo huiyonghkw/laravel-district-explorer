@@ -13,7 +13,7 @@ class DistrictsSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
+    {  
         $this->grapDistricts();
     }
 

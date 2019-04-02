@@ -9,18 +9,26 @@ District Explorer For Laravel with AutoNavi.
 ## 安装说明
 
 ```php
-composer install bravist/laravel-district-explorer -vvv
+$composer install bravist/laravel-district-explorer -vvv
 ```
 
 ## 使用说明
 
+生成migrations。
+```php
+$php artisan vendor:publish --provider="Bravist\District\DistrictExplorerServiceProvider"
+```
+
+执行migrate。
+
+```php
+$php artisan migrate
+```
+
 ## 测试说明
 
-## 贡献方式
+单元测试
 
-## 支持资源
-
-
-## 作者信息
-
-## 软件许可证
+```php
+ $./vendor/bin/phpunit --filter DistrictsSeederTest
+```
