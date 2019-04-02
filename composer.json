@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bravist\\District\\Explorer\\": "src/"
+            "Bravist\\DistrictExplorer\\": "src/"
         }
     },
     "minimum-stability": "dev"
