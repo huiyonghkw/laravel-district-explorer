@@ -27,7 +27,5 @@
         "psr-4": {
             "Bravist\\DistrictExplorer\\": "src/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
