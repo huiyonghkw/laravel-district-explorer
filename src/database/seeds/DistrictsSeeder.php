@@ -24,14 +24,23 @@ class DistrictsSeeder extends Seeder
 
         $context = file_get_contents('https://webapi.amap.com/ui/1.0/ui/geo/DistrictExplorer/assets/d_v1/country_tree.json');
         $nodes = json_decode($context);
-
-        collect($nodes->children)->each(function ($node) use ($pinyin) {
+        $this->insert(
+            $nodes->adcode,
+            $nodes->name,
+            $pinyin->permalink($nodes->name, ''),
+            $nodes->level,
+            0,
+            $nodes->center[0],
+            $nodes->center[1]
+        );
+        $countryCode = $nodes->adcode;
+        collect($nodes->children)->each(function ($node) use ($pinyin, $countryCode) {
             $this->insert(
                 $node->adcode,
                 $node->name,
                 $pinyin->permalink($node->name, ''),
                 $node->level,
-                $node->acroutes[0],
+                $countryCode,
                 $node->center[0],
                 $node->center[1]
             );
@@ -53,7 +62,7 @@ class DistrictsSeeder extends Seeder
                                 $dis->name,
                                 $pinyin->permalink($dis->name, ''),
                                 $dis->level,
-                                $dis->provCode,
+                                $dis->cityCode,
                                 $dis->center[0],
                                 $dis->center[1]
                             );

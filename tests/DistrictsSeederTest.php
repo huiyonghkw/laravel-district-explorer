@@ -2,6 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 use Overtrue\Pinyin\Pinyin;
+use Illuminate\Support\Collection;
 
 class DistrictsSeederTest extends TestCase
 {
