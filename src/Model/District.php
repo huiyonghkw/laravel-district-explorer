@@ -28,9 +28,7 @@ class District extends Model
     public function __construct(array $attributes = [])
     {
         $connection = config('database.district.connection') ?: config('database.default');
-
         $this->setConnection($connection);
-
         parent::__construct($attributes);
     }
 }
