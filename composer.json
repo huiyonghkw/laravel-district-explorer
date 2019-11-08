@@ -3,12 +3,12 @@
     "description": "District Explorer For Laravel with AutoNavi. 中国行政区划数据，访问高德在线数据获取最新区划数据。",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.3@dev",
-        "overtrue/laravel-pinyin": "~3.0",
-        "illuminate/support": "^5.5"
+        "guzzlehttp/guzzle": "^6.0",
+        "overtrue/laravel-pinyin": "~4.0",
+        "illuminate/support": "^6.0|^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.1@dev|7.5.x-dev"
+        "phpunit/phpunit": "^8.0"
     },
     "license": "MIT",
     "authors": [
