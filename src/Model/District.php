@@ -1,6 +1,6 @@
 <?php
 
-namespace Bravist\DistrictExplorer;
+namespace Bravist\DistrictExplorer\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
