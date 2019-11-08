@@ -11,6 +11,14 @@ use Illuminate\Database\Migrations\Migration;
 class CreateDistrictsTable extends Migration
 {
     /**
+     * {@inheritdoc}
+     */
+    public function getConnection()
+    {
+        return config('database.district.connection') ?: config('database.default');
+    }
+
+    /**
      * Run the migrations.
      *
      * @return void
